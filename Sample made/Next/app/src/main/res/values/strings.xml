@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">Next</string>
+    <string name="tv_slots">Slots Available</string>
+    <string name="time">11:00</string>
+    <string name="temsl">11:00</string>
+    <string name="timessl4" />
+    <string name="timesl3">15:15</string>
+    <string name="timesl2">15:58</string>
+    <string name="timesl5">16:15</string>
+    <string name="timesl4">14:30</string>
+    <string name="timesl8">16:50</string>
+    <string name="tv_help" />
+    <string name="tv_help1">Select time slot to visit</string>
+    <string name="tv_header">Select Date And Time</string>
+    <string name="btn_back">BACK</string>
+    <string name="btn_next">NEXT</string>
+    <string name="tv_help12">SELECT A DATE AND A TIME SLOT</string>
+</resources>

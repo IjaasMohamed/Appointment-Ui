@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/whatsapp_image_2023_03_18_at_02_21_37"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/tv_time"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="36dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="230dp"
+        android:text="@string/tv_time"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tv_header" />
+
+    <Button
+        android:id="@+id/btnConsult"
+        android:layout_width="200dp"
+        android:layout_height="140dp"
+        android:layout_marginStart="3dp"
+        android:layout_marginTop="58dp"
+        android:height="140dp"
+        android:drawableTop="@drawable/baseline_schedule_24"
+        android:text="@string/btnConsult"
+        app:cornerRadius="25dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tv_help" />
+
+    <Button
+        android:id="@+id/btn_back"
+        android:layout_width="142dp"
+        android:layout_height="51dp"
+        android:layout_marginStart="11dp"
+        android:layout_marginTop="137dp"
+        android:layout_marginBottom="107dp"
+        android:text="@string/btn_back"
+        app:cornerRadius="25dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnClean" />
+
+    <TextView
+        android:id="@+id/btn_next"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="187dp"
+        android:layout_marginEnd="188dp"
+        android:layout_marginBottom="192dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/tv_help"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="36dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="230dp"
+        android:layout_marginBottom="59dp"
+        android:text="@string/tv_help"
+        app:layout_constraintBottom_toTopOf="@+id/btnConsult"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tv_header" />
+
+    <Button
+        android:id="@+id/btn_back2"
+        android:layout_width="134dp"
+        android:layout_height="53dp"
+        android:layout_marginTop="135dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginBottom="107dp"
+        android:text="@string/btn_next"
+        app:cornerRadius="25dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnCheck" />
+
+    <Button
+        android:id="@+id/btnTooth"
+        android:layout_width="200dp"
+        android:layout_height="140dp"
+        android:layout_marginStart="3dp"
+        android:layout_marginTop="84dp"
+        android:layout_marginEnd="5dp"
+        android:layout_marginBottom="1dp"
+        android:backgroundTint="@android:color/system_accent1_100"
+        android:drawableTop="@drawable/baseline_medication_liquid_24"
+        android:text="@string/btnTooth"
+        android:textColor="@color/app_theme_light"
+        android:textColorLink="#E6E6E6"
+        android:textSize="14dp"
+        app:cornerRadius="25dp"
+        app:layout_constraintBottom_toTopOf="@+id/btnCheck"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/btnConsult"
+        app:layout_constraintTop_toBottomOf="@+id/tv_header" />
+
+    <Button
+        android:id="@+id/btnCheck"
+        android:layout_width="200dp"
+        android:layout_height="140dp"
+        android:layout_marginStart="3dp"
+        android:layout_marginTop="1dp"
+        android:layout_marginEnd="5dp"
+        android:layout_marginBottom="84dp"
+        android:backgroundTint="@android:color/system_accent1_100"
+        android:drawableTop="@drawable/baseline_health_and_safety_24"
+        android:text="@string/btnCheck"
+        app:cornerRadius="25dp"
+        app:layout_constraintBottom_toTopOf="@+id/btn_next"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/btnClean"
+        app:layout_constraintTop_toBottomOf="@+id/btnTooth" />
+
+    <TextView
+        android:id="@+id/tv_header"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="29dp"
+        android:layout_marginTop="38dp"
+        android:layout_marginEnd="145dp"
+        android:text="@string/newOne"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/btnClean"
+        android:layout_width="200dp"
+        android:layout_height="140dp"
+        android:layout_marginStart="3dp"
+        android:layout_marginEnd="3dp"
+        android:layout_marginBottom="85dp"
+        android:backgroundTint="@android:color/system_accent1_100"
+        android:backgroundTintMode="screen"
+        android:drawableTop="@drawable/baseline_clean_hands_24"
+        android:shadowColor="#5E5555"
+        android:text="@string/btnClean"
+        app:cornerRadius="25dp"
+        app:layout_constraintBottom_toTopOf="@+id/btn_next"
+        app:layout_constraintEnd_toStartOf="@+id/btnCheck"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnConsult" />
+
+    <TextView
+        android:id="@+id/tv_more"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="215dp"
+        android:text="@string/tv_more"
+        android:textSize="18dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

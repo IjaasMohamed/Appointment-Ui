@@ -1,0 +1,33 @@
+<resources>
+    <string name="app_name">Make an Appointmentp</string>
+    <string name="btn">Consultation</string>
+    <string name="btnConsult">Consultation</string>
+    <string name="btnTooth">Tooth Pain</string>
+    <string name="btnClean">Cleaning</string>
+    <string name="btnCheck">Health Checkups</string>
+    <string name="tv_slots">Slots Available</string>
+    <string name="time">11:00</string>
+    <string name="temsl">11:00</string>
+    <string name="timessl4" />
+    <string name="timesl3">15:15</string>
+    <string name="timesl2">15:58</string>
+    <string name="timesl5">16:15</string>
+    <string name="timesl4">14:30</string>
+    <string name="timesl8">16:50</string>
+    <string name="tv_help" />
+    <string name="tv_help1">Select time slot to visit</string>
+    <string name="tv_header">Select Date And Time</string>
+    <string name="btn_back">BACK</string>
+    <string name="btn_next">NEXT</string>
+    <string name="tv_help12">SELECT A DATE AND A TIME SLOT</string>
+    <string name="btn_done">DONE</string>
+    <string name="tv_response">THANK YOU!</string>
+    <string name="tv_responseAppoin">Your Appointment Created</string>
+    <string name="tv_date">You Booked an appointment on March 18 at 02:00</string>
+    <string name="tv_success">SUCSESS</string>
+    <string name="tv_success1">SUCCESS</string>
+    <string name="tv_time">HOW CAN I HELP YOU?</string>
+    <string name="tv_more">2 of 4</string>
+    <string name="n1" />
+    <string name="newOne">BOOK APPOINTMENT</string>
+</resources>
