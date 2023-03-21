@@ -2,4 +2,24 @@
 <resources>
     <dimen name="btnConsult">8dp</dimen>
     <dimen name="btnConsultCR">5dp</dimen>
+    <dimen name="btn_done">250dp</dimen>
+    <dimen name="btn_donemargin">76dp</dimen>
+    <dimen name="btn_done3">100dp</dimen>
+    <dimen name="btn_done4">25dp</dimen>
+    <dimen name="marginBottom1">128dp</dimen>
+    <dimen name="cornerRadius">25dp</dimen>
+    <dimen name="layoutMarginBottom">5dp</dimen>
+    <dimen name="textSize">18dp</dimen>
+    <dimen name="imgV">236dp</dimen>
+    <dimen name="imgV2">228dp</dimen>
+    <dimen name="Dimen">36dp</dimen>
+    <dimen name="Dimen1">8dp</dimen>
+    <dimen name="dimen3">230dp</dimen>
+    <dimen name="dime3">200dp</dimen>
+    <dimen name="btnDimen">140dp</dimen>
+    <dimen name="btnmargin">3dp</dimen>
+    <dimen name="btnDimenCon">58dp</dimen>
+    <dimen name="btnClean">140dp</dimen>
+    <dimen name="btnCleanWid">200dp</dimen>
+    <dimen name="btnCleanBot">85dp </dimen>
 </resources>
